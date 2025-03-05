@@ -1,3 +1,3 @@
 # ICT-website
 Members Burhan , Abdullah Anjum, Asad Cheema , Usman 
-<h1>dehaan sa pore mehnat karo Allah zaroor kameyab karga </h1>
+<h1>dehaan sa paro mehnat karo Allah zaroor kameyab karaga </h1>
