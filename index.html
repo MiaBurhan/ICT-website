@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            border: 3px solid ora;
+        }
+        input[type=text], input[type=password]{
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0px;
+            display: inline-block;
+            box-sizing: border-box;
+            border: 1px solid orangered;
+        }
+        #head{
+            /* background-color: orangered; */
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: larger;
+        }
+        .container{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            width: 400px;
+            height: 200px;
+            border: 1px solid black;
+            border-radius: 3%;
+            padding: 30px 30px 80px 30px;
+            margin-top: 50px;
+        }
+        button {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-weight: bold;
+            font-size: medium;
+            background-color: orangered;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            cursor: pointer;
+            border: none;
+            width: 100%;
+}
+button:hover {
+  opacity: 0.8;
+}
+    </style>
+</head>
+<body><center>
+    <div id="head">
+    <h3>Login to your acount</h3>
+</div>
+    <div class="container">
+    <form>
+        <label>Username<input type="text"> </label><br>
+        <label>Password<input type="password"></label><br>  
+            <label><input type="checkbox" >Remember me</label>
+        <button type="submit">Login</button>
+    </form>
+</div>
+</center>
+</body>
+</html>
