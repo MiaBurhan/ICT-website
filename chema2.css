@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}/*logo box 1*/
+.nav-logo {
+    height: 58px;
+    width: 74px;
+}
+.logo {
+    background-image: url("download.png");
+    background-size: cover;
+    height: 58px;
+    width: 74px;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover {
+    border: 1.5px solid white;
+}
+/* box two location in header style*/
+.location1{
+    color: #cccccc;
+    font-size: 0.85rem;
+margin-left: 15px;
+}
+.location2{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+/*icon and location in single line*/
+.add-icon{
+    display: flex;
+}/* search bar box 3*/
+.nav-search{
+    display:flex;/*eak line ma lana ka leya*/
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.select-all{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;/*kanare gool karta ha*/
+    border-bottom-left-radius: 4px;
+    border: none;
+}/*search input edit*/
+.search-input {
+    width: 100%;
+    border: none;
+}/*search icon ko edit karan ka lya*/
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgb(255, 119, 0);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}/*sing box---------------------*/
+span {
+    font-size: 0.7rem;
+}
+.nav-account-bar a{
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+}/*ero opper ly ker ja aya to es ka color nazar aya*/
+.nav-search:hover{
+    border: 2px solid orange;
+}/* nav cart box*/
+.nav-cart i{
+    font-size: 30px;/*seraf icon per apply ho ge*/
+
+}
+.nav-cart a{
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+}
+/*-----------panel style-------------------------------------------------------*/
+/*******************************************************************************/
+.panel{
+    height: 40px;
+     background-color: #222f3d;
+     display: flex;
+     color: white;
+     align-items: center;
+     justify-content: space-evenly;
+}
+.panel-opstions p{
+    display: inline;
+    margin-right: 50px;
+}.panel-opstions a{
+    text-decoration: none;
+    color: white;
+}
+.panel-opstions{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-deals a{
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+}/************************************************==============================================***************************/
+/*\********************************hero section******************************************\*/
+.hero-section{
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}/* hero masage*/
+.hero-massage{
+    background-color: white;
+    color: #0f1111;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+margin-bottom: 25px;
+width: 97%;
+
+}
+/*massage ma anchar tag ka color an font*/
+.hero-massage a{
+    color:#007185;
+
+}/*--------------88888888888888888-----Main products box------------8888888888888888888888888------------------------*/
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+justify-content: space-evenly;
+background-color: #e2e7e6;
+}
+.box {
+    height: 400px;
+  /*  border: 2px solid black;*/
+width: 23%;
+background-color: white;
+padding: 20px 0px 15px;
+margin-top: 15px ;
+}/*box image*/
+.box-image{
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+
+}
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}.box-content p{
+    color:#007185;
+}
+.location1 a{
+    color: #cccccc;
+    font-size: 0.85rem;
+margin-left: 15px;
+text-decoration: none;
+}
